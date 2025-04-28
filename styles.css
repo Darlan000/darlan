@@ -1,0 +1,97 @@
+body {
+    background-image: url('imagens/magical-sky-wallpaper-1920x1200_6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
+header h1 {
+    font-family: "Tangerine";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin-top: 1%;
+}
+main {
+    display: flex;
+    justify-content: center; /* (flex-start) para deixar centralizado a esqueda */
+    align-items: center;
+    min-height: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.tela-de-login {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 20px;
+    width: 15em;
+    position: relative;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-left: 1vw;
+}
+
+.tela-de-login label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.tela-de-login input[type="text"],
+.tela-de-login input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 0.1em solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.tela-de-login input::placeholder {
+    color: #ddd;
+}
+  
+.tela-de-login button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em 1.2em;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    margin: 1em auto 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 0em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0;
+    font-size: 3EM;
+}
